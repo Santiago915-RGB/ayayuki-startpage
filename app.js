@@ -29,9 +29,9 @@ function notificationOriginColor (origin) {
 }
 function notificationImgOrigin (origin) {
 	switch (origin) {
-	  case "Firefox": return "https://i.ibb.co/vvLQ09pG/flesh.png"; break;
-	  case "qBittorrent": return "https://i.ibb.co/Y9Z2bfc/qb.png"; break;
-	  default: return "https://i.ibb.co/96hCChP/mrmaid.jpg"; break;
+	  case "Firefox": return "https://files.catbox.moe/6hpuyf.png"; break;
+	  case "qBittorrent": return "https://files.catbox.moe/ccxrmt.png"; break;
+	  default: return "https://files.catbox.moe/09xvas.jpg"; break;
 	}
 }
 
@@ -54,3 +54,15 @@ while (document.getElementsByClassName("level-post")[i].offsetHeight > 13){
   }
 }
 //focus on making the json file a js file
+//
+const ncopy = document.getElementById("ñ-copy");
+
+//ncopy.addEventListener("click", () => {writeClipboardText("ñ")});
+
+async function writeClipboardText(text) {
+  try {
+	await navigator.clipboard.writeText(text);
+  } catch (error) {
+	console.log(error.message);
+  }
+}

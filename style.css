@@ -159,6 +159,41 @@ ul {
   text-align: center;
 }
 
+.caracter-widget {
+  background: var(--seco-gradient);
+  border: 1px solid var(--seco-white);
+  margin-top: 3rem;
+}
+.caracter-widget-content {
+  display: flex;
+  justify-content: space-around;
+}
+.copy-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  padding: 4px;
+  width: -moz-availabe;
+  height: 16px;
+  border: 1px solid var(--seco-white);
+}
+.caracter-button {
+  color: #f00;
+  background: var(--main-gradient);
+	font-family: 'Monaco 9';
+	font-size: 16px;
+  border: 1px solid var(--seco-white);
+}
+.caracter-button:hover {
+  background: red;
+  color: white;
+}
+.caracter-button:active {
+  background: var(--seco-gradient);
+  color: white;
+  border-color: #f00;
+}
 .venom {
 background: url("file:///home/pachas/venom01-dithered3.png");
 width: 100%;
@@ -334,3 +369,4 @@ details[open] summary::marker {
 .notification-container {
 	scrollbar-color: transparent transparent;
 }
+

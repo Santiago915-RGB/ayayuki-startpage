@@ -1,12 +1,11 @@
 const threadWatch = document.getElementById("watchList");
- threadWatch.style.background = "#000020"
 
 const tCount = threadWatch.querySelectorAll('li').length;
 let to = threadWatch.querySelectorAll('li');
 console.log("aa") // prints on site
 
 let lBoards = []
-let lNreplies = []
+let lNreplies = [
 let lPostsLinks = []
 
 let threads = [tCount];
