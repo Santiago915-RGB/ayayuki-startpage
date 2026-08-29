@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+inotifywait -m -e attrib --include data.js ~/downloads | while read path action file; do
+	mv ~/downloads/threads-data.js ~/job/hub/
+done

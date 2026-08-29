@@ -58,7 +58,7 @@ a {
 	position: absolute;
 	top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-49.9%, -50%);
 }
 .th, .japo {
 	font-family: 'Mona12';

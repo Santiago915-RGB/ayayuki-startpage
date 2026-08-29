@@ -8,3 +8,6 @@ media/wp2.png
 .gitignore
 extension/icons/favicon.png
 extension/extension-notes.txt
+index-pachas.html
+notifications-data.js
+threads-data.js

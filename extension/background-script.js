@@ -69,6 +69,7 @@ async function notify(message){
 	  setTimeout(() => {
 		const jsonBlob = new Blob(["window.tData = " + JSON.stringify(godThread, null, 2)], { type: "text/plain" });
 		const url = URL.createObjectURL(jsonBlob);
+		  console.log("ee");
 
 		let downloading = browser.downloads.download({
 		  url,

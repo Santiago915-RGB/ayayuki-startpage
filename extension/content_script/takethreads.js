@@ -5,7 +5,7 @@ let to = threadWatch.querySelectorAll('li');
 console.log("aa") // prints on site
 
 let lBoards = []
-let lNreplies = [
+let lNreplies = []
 let lPostsLinks = []
 
 let threads = [tCount];
