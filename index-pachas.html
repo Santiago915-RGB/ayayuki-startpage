@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>フワ</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="icon" href="media/favicon.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="notification-container">
+      <div class="n-title">
+        Notifications
+      </div>
+      <div class="n-feed">
+        <div id="notificationsContainer">
+        </div>
+        </div>
+
+
+
+	    <div class="n-title">
+          Threads
+        </div>
+		<div id="threadsContainer">
+		</div>
+      </div>
+    </div>
+
+  <div class="widgets-panel">
+	  <div class="clock-widget">
+		<div class="clock-widget-content">
+		  <div class="clock">
+		    <span class="clock-text" id="clock-hour"></span>
+			<div class="clock-separator"><div class="s22"></div><div class="s22"></div></div>
+		    <span class="clock-text" id="clock-minute"></span>
+		  </div>
+		  <div class="date">
+			  <div class="japo">
+				<span>日</span>
+				<span>月</span>
+				<span>年</span>
+			  </div>
+			  <div>
+			    <span></span>
+			    <span></span>
+			    <span></span>
+			  </div>
+		  </div>
+		  <div class="date2">
+			  <span id="date-year">2026</span><span class="japo">年</span><span id="date-month">5</span><span class="japo">月</span><span id="date-day">25</span><span class="japo">日</span>
+		  </div>
+		</div>
+	  </div>
+	  <div class="caracter-widget">
+		<div class="n-title">
+		  Caracters
+		</div>
+		<div class="caracter-widget-content">
+		  <div class="copy-container">
+			  <span>ñ</span>
+		    <button class="caracter-button" onclick="writeClipboardText('ñ')" id="ñ-copy">Copy</button>
+		  </div>
+		  <div class="copy-container">
+		    <span>Ñ</span>
+		    <button class="caracter-button" onclick="writeClipboardText('Ñ')" id="ñ-copy">Copy</button>
+		  </div>
+		</div>
+	  </div>
+  </div>
+
+
+
+
+
+
+	<div class="main">
+  <div class="th">
+    <div>本</div><div>休</div><div>具</div><div>人</div><div>神</div><div>日本語</div>
+  </div>
+  <div class="tc">
+    <div>
+	  <ul>
+		  <li><a href="https://mail.cock.li/">Email</a></li>
+		  <li><a href="https://mail.google.com/mail/u/0/#inbox">Email2</a></li>	
+
+	    <li><a href="https://www.linkedin.com/in/santiago-gomez-94484037a/">Linkedin</a></li>
+		<li><a>Github</a></li>
+		<li><a target="_blank" href="https://www.freecodecamp.org/">FCC</a></li>
+	  </ul>
+	</div>
+    <div>
+	  <ul>
+		<li><a target="_blank" href="https://8chan.moe/hisparefugio/">hisparefugio</a></li>
+		<li><a target="_blank" href="https://wizchan.org">/wiz/</a></li>
+		<li><a target="_blank" href="https://mangadex.org">mangadex</a></li>
+		<li><a target="_blank" href="https://soybooru.com/">soybooru</a></li>
+		<li><a target="_blank" href="https://readcomiconline.li">rco</a></li>
+		<li><a target="_blank" href="https://wired-7.org">wired-7</a></li>
+		<li><a target="_blank" href="https://www.effedupmovies.com/">eum</a></li>
+	  </ul>
+	</div>
+    <div>
+	  <ul>
+		<li><a target="_blank" href="https://snipboard.io/">snipboard</a></li>
+		<li><a target="_blank" href="https://pixspy.com">pixspy</a></li>
+		<li><a target="_blank" href="https://vk.com/font0mass">fontomass</a></li>
+		<li><a target="_blank" href="https://www.photopea.com/">photopea</a></li>
+		<li><a target="_blank" href="https://tpb.party/">pirate bay</a></li>
+	  <ul>
+	</div>
+    <div>
+	  <ul>
+		<li><a target="_blank" href="https://boards.4chan.org/lit/">/lit/</a></li>
+		<li><a target="_blank" href="https://boards.4chan.org/sci/">/sci/</a></li>
+		<li><a target="_blank" href="https://www.khanacademy.org/">khan academy</a></li>
+		<li><a target="_blank" href="https://libgen.li/">Libgen</a></li>
+	  </ul>
+	</div>
+    <div id="tech"><ul>
+		<li><details>
+		  <summary>Gentoo</summary>
+	        <ul>
+		  <li><a target="_blank" href="https://bugs.gentoo.org/">Bugzilla</a></li>
+		  <li><a target="_blank" href="https://forums.gentoo.org/">Forums</a></li>
+		  <li><a target="_blank" href="https://packages.gentoo.org/">Packages</a></li>
+		  <li><a target="_blank" href="https://planet.gentoo.org/">Planet<br>Gentoo</a></li>
+		  <li><a target="_blank" href="https://wiki.gentoo.org/wiki/Main_Page">Wiki</a></li>
+	        </ul>
+		</details></li>
+		<li><a target="_blank" href="https://boards.4chan.org/g/">/g/</a></li>
+		<li><a target="_blank" href="https://freecomputerbooks.com/">FCB</a></li>
+		<li><a target="_blank" href="https://learnaifromscratch.github.io/">functionalcs</a></li>
+		</ul></div>
+    <div>	  <ul>
+	    <li><a target="_blank" href="https://docs.google.com/spreadsheets/d/1GdpF_ameYIvhFTT2Ji_MNisDS7qCLENoxMllR59q6Zg/edit?pli=1&gid=2093371520#gid=2093371520">Spreadsheet</a></li>
+		<ul><a target="_blank" href="https://www.2chan.net/">2Chan</a></ul>
+		<ul><a target="_blank" href="https://boards.4chan.org/jp/catalog#s=djt">/djt/</a></ul>
+		<ul><a target="_blank" href="https://nyaa.si/">Nyaa</a></ul>
+	  </ul>
+    </div>
+  </div>
+</div>
+</script>
+  <script src="notifications-data.js"></script>
+  <script src="threads-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

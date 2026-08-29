@@ -1,0 +1,90 @@
+make extensionbetter
+
+
+
+extension/background-script.js
+// // add greentext stuff - turn each instance of greentext spans into just >'s
+// // reformat variable names n stuff in fetchpostcontent
+// // now to get an object that has all my values of all my threads and let the magic beginnnn
+// // save shit
+// 80
+
+rremaining steps :
+
+// fix page: make notifications display, fix scrolling on left bar, fix when not enough content displaying, fix (yous) highlight
+// fix extension: make local storage stuff for smart detection of new threads & replies, fix thread message content not working sometimes, fix notifications
+// fix git: uglified branch for optimization, personal private branch for me
+
+***************************
+fix storage thing on extension all work goes to the extension the main site works perfectly, it will only need tweaking when working on the notifications
+
+-------------------EXTENSION/TODO.TXT------------------------------------
+
+default makes it so it checks if the amount of threads is the same, if it is restart the counter
+
+maybe i could use other file to mark when new replies/ i was replied to
+
+
+
+// move it to storage
+tContent fix
+
+
+
+
+it always sends messages but it should not always download on each page
+
+how do we know these are the same threads? by checking if the thread number is the same by comparing the number of current threads and the same value but in storage
+
+
+make variable, mutable variable that takes the storage value
+
+
+
+it needs the first message to know how many threads there are, rest of the code should not execute if the length of new threads is not the same as the value on storage
+
+
+
+browser.storage.local.set({ newThreadsState }) put this line of code each time a full tdata download is completed
+                            ^ value should be the number of threads
+dye
+
+
+
+
+opasity
+
+\ fonts on css
+
+use snake case instad of camel case
+
+steam cards how does the scheme work
+
+-------------if it cuts way more?--------------
+
+--------------------------------EXTENSION/EXTENSION-NOTES.TXT------------------------------------------
+CONTENT | BACKGROUND
+
+take information from 4 thread watcher
+
+seems like background script is what i need to store the tw data
+content script 4 4chan
+
+4chan thred all data:
+
+image -static CHECK
+title - X class="no-title" -static CHECK{
+  maybe moving text
+}
+text content -static CHECK
+
+[
+hour -anim CHECK SNCA
+date -anim CHECK SCNA
+]
+
+reply count CHECK SCNA
+new replies - X
+board -static
+
+mk pricing
